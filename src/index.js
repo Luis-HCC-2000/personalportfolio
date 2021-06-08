@@ -49,7 +49,7 @@ let Header = (props) => {
       <div>
         <a href="https://www.facebook.com/luishumberto.caraveocabrera"> <i className="fab fa-facebook "></i> </a>
         <a href="https://www.linkedin.com/in/luis-humberto-caraveo-cabrera-6075b9194/"><i className="fab fa-linkedin "></i></a>
-        <a href="https://github.com/Luis-HCC-2000"><i class="fab fa-github "></i></a>
+        <a href="https://github.com/Luis-HCC-2000"><i className="fab fa-github "></i></a>
       </div>
       <h1>Luis Caraveo</h1>
       <ul>{props.linksArr.map((navLink,index)=>{ return <li key={index}><a href={"#" + navLink[0]}>{navLink[1]}</a></li>})}</ul>
