@@ -31,11 +31,12 @@ let webPageText={
     aboutMe: ["aboutMe", "About Me"]
   },
   projects:{
-    tributePage:["Tribute Web Page", "Web page made in tribute to Kobe Bryant"],
-    productLanding:["Product Landing Web Page", "Web Page for selling a product"],
+    //[0: title, 1: Description, 2:Linksrc]
+    tributePage:["Tribute Web Page", "Web page made in tribute to Kobe Bryant", "https://luis-hcc-2000.github.io/"],
+    productLanding:["Product Landing Web Page", "Web Page for selling a product","https://luis-hcc-2000.github.io/ProductLanding.html"] ,
     webSurveyForm:["Web Survey Form", "Web page where a survey is Made"],
     technicalDocumentation:["Technical Documentation Page", "Web page explaining something technical"],
-    javaScriptProjects:["Javascript Coding Challenges Page", "Web page where I show my 5 coding challenges needed to pass the course of JavaScript Algorithms and Data Structures through FreeCodeCamp"],
+    javaScriptProjects:["Javascript Coding Challenges Page", "Web page where I show my 5 coding challenges needed to pass the course of JavaScript Algorithms and Data Structures through FreeCodeCamp", "https://luis-hcc-2000.github.io/JavascriptProjects.html"],
     HundredCodingChallenges:["Hundred coding challenges", "100 coding challenges solved with Python, C++ or C"],
     recognizeHandWrittenDigits:["Recognize Handwritten digits", "Neural networks and logistic regression to recognize handwritten digis"],
     LogisticRegressionPrediction:["Logistic Regression Prediction", "Logistic regression model to predict whether a student gets admitted into a university based on results of two exams"],
@@ -162,7 +163,7 @@ let Projects = (props) =>{
   let project=(arr)=>{
     return (
       <div>
-        <h2>{arr[0]}</h2>
+        {arr.length===3 ? <a href={arr[2]} target="_blank"><h2>{arr[0]}</h2></a> : <h2>{arr[0]}</h2>}
         <p>{arr[1]}</p>
       </div>
     )
