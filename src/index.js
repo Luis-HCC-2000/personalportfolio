@@ -111,6 +111,31 @@ let webPageText = {
   },
   projects: {
     //[0: title, 1: Description, 2:Linksrc]
+    pomodoroClock: [
+      "25 + 5 clock",
+      "A webpage that simulates a pomodoro clock, made with react",
+      "https://codepen.io/luis-hcc-2000/pen/LYyVjvQ",
+    ],
+    javaScriptCalculator: [
+      "javaScript Calculator",
+      "A webpage that simulates a calculator, made with react",
+      "https://codepen.io/luis-hcc-2000/pen/LYyEMLz",
+    ],
+    drumMachine: [
+      "Drum Machine",
+      "A webpage that simulates a calculator, made with react",
+      "https://codepen.io/luis-hcc-2000/pen/YzVPKdy",
+    ],
+    reactMarkDownPreviewer: [
+      "Markdown Previewer",
+      "A webpage that marksdown a given text, made with react",
+      "https://codepen.io/luis-hcc-2000/pen/qBmBoxq",
+    ],
+    randomQuoteGenerator: [
+      "Random Quote Generator",
+      "A webpage that gives a random quote, made with react",
+      "https://codepen.io/luis-hcc-2000/pen/NWjWXVr",
+    ],
     tributePage: [
       "Tribute Web Page",
       "Web page made in tribute to Kobe Bryant",
