@@ -44,6 +44,9 @@ header ul {
   align-items: center;
   margin: 0;
 }
+button {
+  cursor: pointer;
+}
 header div {
   display: flex;
   justify-content: space-around;
@@ -68,6 +71,7 @@ main {
   padding-top: 10%;
   z-index: 1;
   padding-left: 5%;
+  padding-right: 5%;
 }
 .aboutMe > h2 {
   display: inline-block;
@@ -200,6 +204,7 @@ hr.center-ball {
   padding: 5% 8%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .descriptionMyLearningPath {
@@ -283,6 +288,11 @@ hr.center-ball {
   margin-top: 5%;
 }
 
+.myProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .myProjectsDescription {
   display: grid;
   grid-template-columns: 40% 60%;
